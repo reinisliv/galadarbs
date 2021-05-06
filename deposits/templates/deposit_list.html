@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deposits</title>
+</head>
+<body>
+    <ul>
+        {% for deposit in object_list %}
+        <li>
+            Deposit: {{ deposits.deposit }} <br>
+            Date: {{ deposits.term }} <br>
+            Reason: {{ deposits.rate }} <br>
+            Interest: {{ deposits.interest }} <br>
+        </li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>
